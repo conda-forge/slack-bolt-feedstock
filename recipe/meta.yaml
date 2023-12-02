@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - slack-sdk <4,>=3.21.2
+    - slack-sdk <4,>=3.25.0
 
 test:
   imports:
