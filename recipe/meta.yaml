@@ -1,5 +1,5 @@
 {% set name = "slack-bolt" %}
-{% set version = "1.19.1" %}
+{% set version = "1.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/slack_bolt-{{ version }}.tar.gz
-  sha256: a3041d8f49eba22c3be4dd8f57602d6685d367c0e1cc7619260e1ce4a363d07f
+  sha256: 373d76a2b1a8ed91d5fe011bd3f671a05ec8620210c3a6ad99477e39d6b2b7fa
 
 build:
   noarch: python
